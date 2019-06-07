@@ -1,6 +1,8 @@
-### graphql-schema-stitching :woman_cartwheeling:
+### :rocket: graphql-schema-stitching :woman_cartwheeling:
 
-##### Combining multiple GraphQL APIs into one
+#### Combining multiple GraphQL APIs into one
+
+This project accompanies the [schema stitching](https://www.apollographql.com/docs/graphql-tools/schema-stitching/) implementation using NodeJS and [ApolloServer](https://www.apollographql.com/docs/apollo-server/).
 
 - One of the main benefits of GraphQL is that we can query all of our data as part of one schema, and get everything we need in one request. But as the schema grows, it might become cumbersome to manage it all as one codebase, and it starts to make sense to split it into different modules. We may also want to decompose your schema into separate microservices, which can be developed and deployed independently.
 

@@ -1,0 +1,5 @@
+#import Services from './services.graphql'
+type Reservation {
+    ID: Int!
+    services: [Services]
+}

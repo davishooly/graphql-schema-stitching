@@ -1,0 +1,10 @@
+
+#import User from './types/user.graphql'
+#import Services from './types/services.graphql'
+#import Reservation from './types/reservation.graphql'
+
+type Query {
+    user: User
+    services: [Services]
+    reservations: [Reservation]
+}

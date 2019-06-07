@@ -1,0 +1,5 @@
+type Services {
+    id: ID!
+    name: String
+    level: String
+}

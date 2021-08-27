@@ -13,4 +13,4 @@ This project accompanies the [schema stitching](https://www.apollographql.com/do
 
 - Apollo Federation is an architecture for composing multiple GraphQL services into a single graph that addresses this need. Unlike other approaches such as schema stitching, it is based on a declarative composition programming model that allows proper separation of concerns. This design allows teams to implement an enterprise-scale shared data graph as a set of loosely coupled, separately maintained GraphQL services.
 
-Learn more about [Apollo-federation](https://github.com/davishooly/apollo-federation)
+Implementation of services orchestration using [Apollo-federation](https://github.com/davishooly/apollo-federation)
